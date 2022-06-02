@@ -11,11 +11,11 @@ class primeNumberTest {
 
     @Test
     public void it_should_return_empty_list(){
-        PrimeNumber primeNumber = new PrimeNumber();
+        List<Integer> expected = new ArrayList<>();
 
-        List<Integer> resultList = primeNumber.isprime(3);
+        List<Integer> resultList = PrimeNumber.isPrime(3);
 
-        assertEquals(,resultList);
+        assertEquals(expected,resultList);
 
     }
 
